@@ -1,0 +1,2 @@
+import type { MetadataRoute } from 'next'
+export default function sitemap(): MetadataRoute.Sitemap { const routes = ['', 'platform', 'solutions', 'industries', 'pricing', 'about', 'resources', 'partners', 'contact', 'book-demo', 'privacy', 'terms', 'cookies', 'security', 'accessibility']; return routes.map(route => ({ url: `https://amrah-io.vercel.app/${route}`, lastModified: new Date('2026-11-03'), changeFrequency: 'monthly', priority: route === '' ? 1 : 0.7 })) }

@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { ArrowRight, BarChart3, CalendarCheck2, ChevronDown, FileText, Menu, ShieldCheck, Sparkles, UsersRound, X } from 'lucide-react'
+import { ArrowRight, BarChart3, CalendarCheck2, ChevronDown, FileText, Menu, Sparkles, UsersRound, X } from 'lucide-react'
 
 const logoUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AMRAH%20LOGO-ZTuK36HkrpTmsPsNz3gS0ukKw8K9vo.jpeg'
 
