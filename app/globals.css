@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
+@import './audit-route-styles.css';
 
 :root { --navy:#101d32; --blue:#123b5d; --teal:#13b8b0; --ink:#263747; --muted:#687887; --pale:#f5f8fa; --line:#dce6ea; }
 * { box-sizing:border-box; }

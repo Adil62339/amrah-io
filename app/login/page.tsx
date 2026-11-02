@@ -1,0 +1,2 @@
+import Link from 'next/link'
+export default function LoginPage() { return <main className="simple-page section-wrap"><p className="eyebrow">AMRAH WORKSPACE</p><h1>Sign in</h1><p>Workspace authentication is not enabled in this public prototype.</p><Link href="/contact" className="button">Contact AMRAH</Link><p><Link href="/register">Need an account?</Link> · <Link href="/forgot-password">Forgot password?</Link></p></main> }
